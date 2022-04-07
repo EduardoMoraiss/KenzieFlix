@@ -1,0 +1,99 @@
+body{
+    background-color: rgba(18, 18, 20, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'IBM Plex Sans', sans-serif;
+    box-sizing: border-box;
+}
+.logotipo{
+    margin-top: 42px;  
+}
+.box{
+    max-width: 700px;
+}
+.titulo{
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+    font-style: 600;
+    margin-top: 73px;
+}
+.box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    text-align: center;
+    margin-top: 61px;
+    list-style: none;
+    color:rgba(156, 156, 156, 1);
+    font-weight: 600;
+    width: 160px;
+}
+.pai-zoom{
+    max-width: 160px;
+    max-height: 160px;
+    border: solid 2px transparent;
+    transition: 0s;
+    
+}
+.pai-zoom:hover{
+    border: solid 2px white;
+    transition: 0;
+    border-radius: 8px;
+}
+.zoom{
+    max-width: 160px;
+    max-height: 160px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.zoom img{
+    
+     transition: 0.7s;
+     border-radius: 8px;
+}
+.zoom:hover img{
+    transform: scale(1.5);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+.adicionar-perfil{
+    opacity: 0.5;
+}
+.adicionar-perfil:hover{
+    opacity: 1;
+    
+}
+.img{
+    border: rgba(0, 0, 0, 0) solid 2px;
+    border-radius: 8px;
+}
+
+li:hover p{
+    color: white;
+    transition: 1s;
+}
+li p{
+    transition: 1s;
+    margin-top: 16px;
+}
+.gerenciar{
+    width: 206px;
+    height: 50px;
+    border: 1.5px solid #ffffff;
+    border-radius: 8px;
+    background-color: 
+    rgba(18, 18, 20, 1);
+    color: 
+    rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 102px;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    transition: none;
+}
+.gerenciar:hover {
+    box-shadow: inset 206px 0 0 0 #ffffff;
+    color: black;
+}
